@@ -1,0 +1,32 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "amplifynotetaker-20200505231817-authRole",
+			"UnauthRoleArn": "arn:aws:iam::842560585177:role/amplifynotetaker-20200505231817-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::842560585177:role/amplifynotetaker-20200505231817-authRole",
+			"Region": "ap-northeast-1",
+			"DeploymentBucketName": "amplifynotetaker-20200505231817-deployment",
+			"UnauthRoleName": "amplifynotetaker-20200505231817-unauthRole",
+			"StackName": "amplifynotetaker-20200505231817",
+			"StackId": "arn:aws:cloudformation:ap-northeast-1:842560585177:stack/amplifynotetaker-20200505231817/442f8b50-8edb-11ea-bab7-0e3b8595a6ba"
+		}
+	},
+	"api": {
+		"amplifynotetaker": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"securityType": "API_KEY",
+				"GraphQLAPIIdOutput": "tjhd73gkvvatpkp46maqbfyulq",
+				"GraphQLAPIEndpointOutput": "https://iq6inqdfg5aifh2tw6bwmudlqq.appsync-api.ap-northeast-1.amazonaws.com/graphql",
+				"GraphQLAPIKeyOutput": "da2-u6xbgf2covbxto2vmrmfxuwysi"
+			},
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/amplifynotetaker-20200505231817-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+				"logicalId": "apiamplifynotetaker"
+			},
+			"lastPushTimeStamp": "2020-05-05T15:18:25.888Z",
+			"lastPushDirHash": "mn8cCagh4kI6ZeLvQtglxYI5IEI="
+		}
+	}
+}

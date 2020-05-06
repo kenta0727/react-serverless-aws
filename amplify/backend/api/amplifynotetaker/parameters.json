@@ -1,0 +1,7 @@
+{
+    "AppSyncApiName": "amplifynotetaker",
+    "schemaGraphql": "s3://amplifynotetaker-20200505231817-deployment/amplify-appsync-files/schema.graphql.1588725765939",
+    "ResolverBucket": "amplifynotetaker-20200505231817-deployment",
+    "ResolverRootKey": "amplify-appsync-files",
+    "DeploymentTimestamp": "1588725765939"
+}
